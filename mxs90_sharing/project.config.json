@@ -1,0 +1,83 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.1",
+	"appid": "wxbfe0a1b272f17586",
+	"projectname": "%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%E5%90%8C%E5%BF%83%E6%88%98%E7%96%AB",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "mp",
+					"pathName": "pages/madeph/madeph",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "sel",
+					"pathName": "pages/select/select",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/madeph/madeph",
+					"pathName": "pages/madeph/madeph",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages /share/share",
+					"pathName": "pages/share/share",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/imageeditor/imageeditor",
+					"pathName": "pages/imageeditor/imageeditor",
+					"query": "bgPic='https://wx.qlogo.cn/mmopen/vi_32/PblibqFjsXj3icjaFlJpTvibpdSsZ95ClLUclQcH2icxGWH6VQkyOgVY1aP84FLEFtDVCEdDPOVXqRriaiaNCa2NDtDw/132'",
+					"scene": null
+				}
+			]
+		}
+	}
+}

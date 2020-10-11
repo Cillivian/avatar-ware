@@ -1,0 +1,35 @@
+/* CSS的选择器排列顺序按WXML标签中类出现顺序来的 */
+.card_wrap {
+  background: #f2f2f6;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_wrap .card_item {
+  width: 80%;
+  height: 80%;
+}
+.btn-group{
+  display: flex;
+  flex-flow: row nowrap;
+width: 100%;
+margin-top:30rpx;
+  justify-content: space-around;
+  /* left: 50%;
+  transform: translateX(-50%); */
+}
+
+.card_wrap .card_item image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 6px 23px 50px 10px #ccc;
+}
+
+

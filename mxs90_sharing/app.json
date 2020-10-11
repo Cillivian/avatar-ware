@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/select/select",
+    "pages/mask/mask",
+    "pages/madeph/madeph",
+    "pages/upload/upload",
+    "pages/imageeditor/imageeditor",
+    "pages/combine/combine",
+    "pages/share/share"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7abbe6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "中国农业大学毕业季"
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wxa7fe16ad5966620f"
+  ]
+}

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view wx:if="{{!combine}}" class="wrap">
+  <view class="container" id="container" bind:touchstart="touchStart" bind:touchend="touchEnd" bind:touchmove="touchMove">
+    <image class="bg" src="{{bgPic}}" />
+    <image class="bg" src="{{borderPic}}"/>
+      <icon type="cancel" bindtap="banImg"  class="cancel" id="cancel" wx:if="{{!isBan}}" style="top:{{cancelCenterY-10+'px'}};left:{{cancelCenterX-10+'px'}}"></icon>
+      <icon type="waiting" class="handle" id="handle" color="green" wx:if="{{!isBan}}" style="top:{{handleCenterY-10+'px'}};left:{{handleCenterX-10+'px'}}"></icon>
+      <image  class="hat" id='hat' src="../../images/{{currentHatId}}.png" wx:if="{{!isBan}}" style="top:{{hatCenterY-hatSize/2-2+'px'}};left:{{hatCenterX-hatSize/2-2+'px'}};transform:rotate({{rotate+'deg'}}) scale({{scale}})"></image>
+  </view>
+
+  <button bind:tap="combinePic" class="btn-primary">确定</button>
+  <scroll-view class="scrollView" scroll-x="true">
+    <image class="imgList" wx:for="{{coverList}}" 
+    wx:key="{{index}}" src="{{item.coverImgUrl}}"
+     bindtap="chooseCoverImg" data-cover="{{item.coverImgUrl}}" />
+    <image class="imgList" wx:for="{{imgList}}" wx:key="{{index+1}}" src="../../images/{{index+1}}.png" data-hat-id="{{index+1}}" bind:tap="chooseImg" />
+  </scroll-view>
+</view>

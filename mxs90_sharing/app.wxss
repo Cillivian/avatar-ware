@@ -1,0 +1,53 @@
+@import './libs/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+page {
+  height: 100%;
+  font-family: PingFangSC,Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100；
+  font-weight：normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #4a4a4a;
+}
+.container {
+  height: 100%;
+}
+
+.btn-cta {
+  width: 130px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: #7abbe6;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.footer {
+  margin-top: 10px;
+}
+.btn-primary{
+color: #fff;
+background-color: #7abbe6;
+
+}
+.btn-primary[disabled]{
+color: #fff;
+background-color: #b8d7ec !important;
+}
+

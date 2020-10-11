@@ -1,0 +1,9 @@
+/* pages/combine/combine.wxss */
+
+button{
+  margin: 10px 20px 0px 20px;
+}
+.wrap{
+  padding:20rpx;
+  box-sizing: border-box;
+}

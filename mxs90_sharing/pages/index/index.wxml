@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<!--制作头像首页（类似一个海报）-->
+<view class="container">
+   <!-- 卡片样式（个人感觉有利于大小不同的手机看海报，并不是响应式） -->
+   <view class="card_wrap">
+    <view class="card_item card1 ">
+      <image src="https://6361-cau-vv14h-1302428095.tcb.qcloud.la/static/%E5%B0%81%E9%9D%A2.jpg"></image>
+    </view>
+    <view class="btn-group">
+        <view class="btn-cta buy_btn" id="1" bindtap="toMask">换上头像！</view>
+         <!-- <view class="btn-cta buy_btn" id="1" bindtap="toChange">换头像</view> -->
+      </view>
+   </view> 
+</view>
